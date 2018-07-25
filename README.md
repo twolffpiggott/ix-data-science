@@ -20,13 +20,13 @@ Course material for iXperience Data Science 2018. Explanatory notes and code for
 ### Week 3: Advanced Machine Learning
 | | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
-| **Topic Summary** | Dimensionality reduction | Clustering | Multi-class classification and ensemble learning | Introduction to neural networks | Convolutional networks  |
-| **Class structure** | Linear vs non-linear dimensionality reduction. PCA, t-SNE. | Density-based clustering, DB-SCAN, hierarchical clustering. | Metrics for multi-class classification, ensemble models and optimisation. | Feedforward networks motivation and development, introduction to the Keras API.  | Why convolutions, genesis and building blocks of convolutional models, transfer learning. |
-| **Homework Assignments** | t-SNE, density and preseved quantities. | Assessing clustering quality. | Multi-class modelling and rigorous model evaluation. | Feedforward networks with Keras. | Convolutional networks and transfer learning. |
+| **Topic Summary** | Dimensionality reduction | Clustering | GPU Server Setup | Introduction to neural networks | Convolutional networks  |
+| **Class structure** | Linear vs non-linear dimensionality reduction. PCA, t-SNE. | Density-based clustering, DB-SCAN, hierarchical clustering. | GPU acceleration, Nvidia CUDA and CUDNN. | Feedforward networks motivation and development, introduction to the Keras API.  | Why convolutions, genesis and building blocks of convolutional models, transfer learning. |
+| **Homework Assignments** | t-SNE, density and preseved quantities. | Assessing clustering quality. | Setting up a GPU server for deep learning with Google Cloud Compute. | Feedforward networks with Keras. | Convolutional networks and transfer learning. |
 
 ### Week 4: Deep Learning
 | | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
-| **Topic Summary** | Recurrent models | Autoencoders | Generative models | Model productionization | Putting it all together |
-| **Class structure** | Generators, memory and vanishing gradients, LSTMs and GRUs, bi-directionality. | Foundations of autoencoders and unsupervised learning. | Adversarial networks and variational autoencoders. | Model serving and APIs with Flask and Celery  | Integrating model design and productionization. |
-| **Homework Assignments** | Recurrent model intuitions. | Latent spaces. | Generative adversarial network design. | Creating a web server to host a trained model. | Start-to-finish modelling pipeline. |
+| **Topic Summary** | Recurrent models | Recurrent models | Autoencoders | Model productionization | Putting it all together |
+| **Class structure** | Simple RNN cells, memory and vanishing gradients. | Generators, LSTMs and implementation. | Foundations of autoencoders and unsupervised learning. | Model serving and APIs with Flask and Celery  | Integrating model design and productionization. |
+| **Homework Assignments** | Recurrent model intuitions. | Temperature prediction and generative sequence modelling. | Generative adversarial network design. | Creating a web server to host a trained model. | Start-to-finish modelling pipeline. |
